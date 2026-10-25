@@ -66,9 +66,17 @@ Every result is labeled **Passed**, **Needs a fix**, or **Needs review**, with a
 
 ## Demo
 
-A verified public deployment URL has not been added yet. Run the app locally using the instructions below.
+## Demo
 
-<!-- Add your actual, tested deployment URL here once the hosted upload → AI → checks → ZIP workflow works. -->
+Try **SubmitSloth** online:
+
+👉 **[Launch SubmitSloth](https://submitsloth.onrender.com)**
+
+Turn assignment instructions into an editable checklist, check your files,
+and download an organized submission ZIP.
+
+> Hosted on Render. If the service is waking up, the first visit may take
+> a little longer to load.
 
 ### Try the demo workflow
 
@@ -239,7 +247,8 @@ For a Docker Web Service on Render:
 - Use the Dockerfile's default command.
 - Test AI extraction, upload, inspection and ZIP download on the deployed URL.
 
-A Dockerfile and hosting instructions are included; a successful production deployment is not claimed here. Inside Docker, `localhost` refers to the container, not a model server on your laptop.
+The application is hosted on Render:
+[Open SubmitSloth](https://submitsloth.onrender.com).
 
 ## Privacy and file handling
 
@@ -272,7 +281,8 @@ The suite contains **19 tests** across the workflow and AI-diagnostics modules. 
 | JavaScript syntax | Checked during initial development |
 | Basic Groq connectivity | A separate local test returned HTTP 200 |
 | End-to-end live AI extraction | Not yet confirmed in the recorded verification |
-| Rendered browser QA / public deployment | Not yet verified |
+| Public deployment | Hosted on Render; live link available above |
+| End-to-end hosted workflow | Manually tested: AI checklist → file checks → ZIP download |
 
 The full 19-test suite was not rerun successfully together after the diagnostics update because Flask was unavailable in that test environment. Install the requirements and run the suite in your environment before release. A successful greeting request is connectivity evidence, not proof that the full checklist workflow works.
 
