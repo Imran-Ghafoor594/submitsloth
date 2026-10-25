@@ -1,0 +1,1 @@
+Submit a PDF report of no more than 2 pages. Include Python source code and at least 3 screenshots. Include the text "Imran Ghafoor" in the report. Explain your approach clearly. Name the ZIP Team07_CV.zip.

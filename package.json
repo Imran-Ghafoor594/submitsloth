@@ -1,0 +1,7 @@
+{
+  "name": "submitsloth",
+  "private": true,
+  "scripts": {
+    "dev": "node preview.mjs"
+  }
+}
